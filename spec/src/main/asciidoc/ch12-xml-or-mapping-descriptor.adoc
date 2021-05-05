@@ -2014,7 +2014,7 @@ object/relational mapping schema for use with the persistence API.
     <xsd:annotation>
       <xsd:documentation>
 
-        public enum GenerationType { TABLE, SEQUENCE, IDENTITY, AUTO };
+        public enum GenerationType { TABLE, SEQUENCE, IDENTITY, UUID, AUTO };
 
       </xsd:documentation>
     </xsd:annotation>
@@ -2022,6 +2022,7 @@ object/relational mapping schema for use with the persistence API.
       <xsd:enumeration value="TABLE"/>
       <xsd:enumeration value="SEQUENCE"/>
       <xsd:enumeration value="IDENTITY"/>
+      <xsd:enumeration value="UUID"/>
       <xsd:enumeration value="AUTO"/>
     </xsd:restriction>
   </xsd:simpleType>
